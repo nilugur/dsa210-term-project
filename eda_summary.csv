@@ -1,0 +1,12 @@
+,0
+n_events,36267
+n_matches,4342
+years,"[2015, 2017]"
+surface_counts,"{'Hard': 19139, 'Clay': 12411, 'Grass': 4699, 'Carpet': 18}"
+pressure_counts,"{'lower': 19348, 'high': 9824, 'medium_high': 7095}"
+mean_pbpp_3,0.4322139478244578
+mean_pbpp_6,0.5018867745636241
+mean_pbpp_12,0.5041933380749171
+mean_pd_3,-0.07940550844288816
+mean_pd_6,-0.00985082722329852
+mean_pd_12,-0.006805331839019039
