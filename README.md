@@ -8,3 +8,13 @@ This project investigates whether professional tennis players experience short-t
 
 ## Repository Contents
 - ProposalReport_Nil Uğur.pdf: Project proposal document
+
+## April 14 Milestone
+- Data collection and enrichment
+- Exploratory data analysis
+- Hypothesis testing
+- Analysis notebook included
+
+## Files
+- analysis.ipynb
+- outputs/
