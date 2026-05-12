@@ -130,7 +130,7 @@ hypothesis_tests.csv         → hypothesis test results
 ml_model_comparison.csv      → ML model performance metrics
 ProposalReport_Nil Uğur.pdf  → project proposal document
 requirements.txt             → Python dependencies
-DSA210_Final_Report_Nil_Ugur.pdf  → final project report
+DSA210_Final_Report_Nil_Ugur.pdf → final project report
 ---
 
 ## How to Run
