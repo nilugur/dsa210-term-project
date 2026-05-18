@@ -50,7 +50,7 @@ def load_pbp() -> pd.DataFrame:
     frames = [pd.read_csv(f) for f in files]
     pbp = pd.concat(frames, ignore_index=True)
     pbp['date_dt'] = pd.to_datetime(pbp['date'], format='%d %b %y', errors='coerce')
-    pbp = pbp[pbp['date_dt'].dt.year.isin([2015, 2023])].copy()
+    pbp = pbp[pbp['date_dt'].dt.year.isin([2015, 2017])].copy()
     pbp['year'] = pbp['date_dt'].dt.year
     pbp['p1_n'] = pbp['server1'].map(norm_name)
     pbp['p2_n'] = pbp['server2'].map(norm_name)
@@ -62,7 +62,7 @@ def load_pbp() -> pd.DataFrame:
 
 
 def load_atp() -> pd.DataFrame:
-    frames = [pd.read_csv(ATP_DIR / f'atp_matches_{year}.csv') for year in [2015, 2024]]
+    frames = [pd.read_csv(ATP_DIR / f'atp_matches_{year}.csv') for year in [2015, 2017]]
     atp = pd.concat(frames, ignore_index=True)
     atp['year'] = atp['tourney_date'] // 10000
     atp['winner_n'] = atp['winner_name'].map(norm_name)
